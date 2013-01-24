@@ -17,6 +17,7 @@ public class UserHash {
 	private byte[] hash = null;
 	
 	// UserHash constructor
+	// Takes in a username and password and generates an MD5 from it
 	public UserHash (String username, String password) 
 			throws NoSuchAlgorithmException, 
 			UnsupportedEncodingException 
